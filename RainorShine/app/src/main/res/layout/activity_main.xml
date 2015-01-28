@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+
+
+
+    >
+
+    <TextView
+        android:text="Welcome to Rain or Shine for all your forcasting needs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textColor="#000000"
+
+
+        />
+    <Button
+        android:id="@+id/Btnone"
+        android:text="Today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:background="#00838F"
+        />
+    <Button
+        android:id="@+id/Btntwo"
+        android:text="Tomorrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:background="#00838F"
+        />
+    <Button
+        android:id="@+id/Btnthree"
+        android:text="Future"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:background="#00838F"
+        />
+
+
+
+
+</LinearLayout>
